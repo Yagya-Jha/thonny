@@ -1,0 +1,54 @@
+:root {
+    --val: 30;
+}
+body{
+    background-color: rgb(var(--val),var(--val),var(--val));
+    color: white;
+    overflow: hidden;
+}
+
+#code{
+    border: 1px solid white;
+    height: 50vh;
+    width: 70vw;
+}
+#output{
+    border: 1px solid white;
+    height: 18vh;
+    width: 70vw;
+}
+
+#stvv{
+    color: white;
+    background-color: black;
+}
+
+#sidestuff{
+    float: right;
+    border: 1px solid white;
+    height: 83vh;
+    width: 27.5vw;
+    overflow-y: scroll;
+}
+
+#top{
+    width: 99vw;
+    height: 15vh;
+    border: 1px solid white;
+}
+#top>img{
+    width: 100%;
+    height: 100%;
+}
+#top:hover{
+    cursor: pointer;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    overflow: scroll;
+    background-color:rgb(var(--val)+10,var(--val)+10,var(--val)+10);
+    color: white;
+    font-size: 17px;
+}
